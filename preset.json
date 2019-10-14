@@ -1,0 +1,20 @@
+{
+  "useConfigFiles": true,
+  "useTaobaoRegistry": false,
+  "packageManager": "yarn",
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "prettier",
+      "lintOn": ["save"]
+    },
+    "vue-cli-plugin-lego": {
+      "prompts": true
+    }
+  },
+  "router": true,
+  "routerHistoryMode": true,
+  "vuex": true,
+  "cssPreprocessor": "dart-sass"
+}
+
