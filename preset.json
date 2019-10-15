@@ -10,7 +10,8 @@
     },
     "vue-cli-plugin-lego": {
       "prompts": true
-    }
+    },
+    "vue-cli-plugin-navigator": {}
   },
   "router": true,
   "routerHistoryMode": true,
