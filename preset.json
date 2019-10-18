@@ -8,14 +8,13 @@
       "config": "prettier",
       "lintOn": ["save"]
     },
+    "@vue/cli-plugin-vuex": {},
+    "@vue/cli-plugin-router": {
+      "historyMode": true
+    },
     "vue-cli-plugin-lego": {
       "prompts": true
-    },
-    "vue-cli-plugin-navigator": {}
+    }
   },
-  "router": true,
-  "routerHistoryMode": true,
-  "vuex": true,
   "cssPreprocessor": "dart-sass"
 }
-
